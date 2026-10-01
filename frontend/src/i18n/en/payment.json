@@ -1,0 +1,17 @@
+{
+  "securePayment": "Secure Official Payment",
+  "paymentDescription": "Complete your intercity transportation ticket payment securely. The official fare is verified server-side.",
+  "selectProvider": "Choose Payment Method",
+  "telebirr": "Telebirr SuperApp / USSD (*127#)",
+  "cbeBirr": "CBE Birr / Commercial Bank of Ethiopia",
+  "chapa": "Chapa Digital Pay (Cards / Mobile)",
+  "mockSandbox": "Instant Sandbox Mock Payment",
+  "payOfficialFare": "Pay Official Fare",
+  "verifyingPayment": "Verifying transaction with server...",
+  "paymentSuccessful": "Payment Verified Successfully!",
+  "paymentFailed": "Payment Authorization Failed",
+  "transactionReference": "Transaction Reference",
+  "amountPaid": "Total Amount Paid",
+  "generateTickets": "Your digital boarding ticket with QR code is ready.",
+  "viewDigitalTicket": "View Digital Ticket"
+}

@@ -1,0 +1,15 @@
+{
+  "generalError": "Unable to complete request. Please try again.",
+  "noTripsFound": "No trips found for this route and date.",
+  "paymentFailed": "Payment authorization failed. Your card or wallet was not charged.",
+  "seatUnavailable": "One or more selected seats are no longer available. Please select alternative seats.",
+  "sessionExpired": "Your session has expired. Please log in again to continue.",
+  "invalidTicket": "Invalid ticket. Verification token not recognized by platform.",
+  "ticketAlreadyUsed": "Boarding rejected: Ticket has already been scanned and boarded.",
+  "tripCancelled": "This trip has been cancelled by the operator.",
+  "networkUnavailable": "Network connection error. Please verify your internet connection.",
+  "sameCityError": "Departure and arrival cities cannot be the same.",
+  "selectDeparture": "Please select your departure city.",
+  "selectArrival": "Please select your arrival city.",
+  "selectDate": "Please select a travel date."
+}

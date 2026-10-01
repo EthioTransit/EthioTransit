@@ -1,0 +1,21 @@
+import { Router } from 'express';
+import { PaymentController } from '../controllers/payment.controller';
+import { authenticate } from '../middleware/auth.middleware';
+import { authorizeRoles } from '../middleware/rbac.middleware';
+import { validateBody } from '../middleware/validate.middleware';
+import { createPaymentSchema, verifyPaymentSchema } from '../validators/payment.validator';
+import { UserRole } from '../types';
+
+const router = Router();
+
+router.post('/create', authenticate, validateBody(createPaymentSchema), PaymentController.createPayment);
+router.post('/verify', validateBody(verifyPaymentSchema), PaymentController.verifyPayment);
+
+router.get(
+  '/',
+  authenticate,
+  authorizeRoles(UserRole.ADMIN, UserRole.SUPER_ADMIN),
+  PaymentController.getAllPayments
+);
+
+export default router;

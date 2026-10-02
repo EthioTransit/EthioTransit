@@ -152,3 +152,5 @@ EthioTransit includes a mock payment sandbox with provider adapters for Ethiopia
 ## 🌍 Language Support
 - **English**: Default locale for all visitors.
 - **Amharic (አማርኛ)**: Full localization accessible via the language toggle in the header navbar. No page refresh required.
+
+Update from local machine

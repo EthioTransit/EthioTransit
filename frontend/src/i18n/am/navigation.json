@@ -1,0 +1,18 @@
+{
+  "home": "ዋና ገጽ",
+  "searchTrips": "ጉዞዎችን ፈልግ",
+  "myBookings": "የተያዙ ጉዞዎቼ",
+  "myTickets": "ቲኬቶቼ",
+  "routes": "የጉዞ መስመሮች",
+  "howItWorks": "አሰራር",
+  "login": "ግባ",
+  "signUp": "ተመዝገብ",
+  "logout": "ውጣ",
+  "dashboard": "ዳሽቦርድ",
+  "admin": "የአስተዳዳሪ ክፍል",
+  "operator": "የኦፕሬተር መግቢያ",
+  "driver": "የአሽከርካሪ ክፍል",
+  "profile": "የግል መረጃ",
+  "language": "ቋንቋ",
+  "menu": "ማውጫ"
+}

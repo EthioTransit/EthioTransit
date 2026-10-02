@@ -1,0 +1,17 @@
+export const BRAND = {
+  name: 'EthioTransit',
+  shortName: 'EthioTransit',
+  tagline: 'Travel Across Ethiopia, Smarter.',
+  subtitle: 'Search routes, compare trips, choose your seat, pay securely, and travel with a verified digital ticket.',
+  legalName: 'EthioTransit Mobility Solutions PLC',
+  supportPhone: '+251 11 667 8900',
+  supportEmail: 'contact@ethiotransit.et',
+  currency: 'ETB',
+  currencySymbol: 'Br',
+  platformFee: 15,
+  seatLockMinutes: 10,
+  routesCount: '45+',
+  citiesCount: '15+',
+  happyPassengers: '250,000+',
+  partnerOperators: '18+',
+};

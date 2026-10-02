@@ -1,0 +1,17 @@
+{
+  "securePayment": "ደህንነቱ የተጠበቀ ክፍያ",
+  "paymentDescription": "የጉዞ ትኬት ክፍያዎን በቀላሉ እና በአስተማማኝ ሁኔታ ይፈጽሙ። የትኬቱ ታሪፍ በህጋዊ ሲስተም የተረጋገጠ ነው።",
+  "selectProvider": "የመክፈያ ዘዴ ይምረጡ",
+  "telebirr": "ቴሌብር ሱፐርአፕ / (*127#)",
+  "cbeBirr": "ሲቢኢ ብር / የኢትዮጵያ ንግድ ባንክ",
+  "chapa": "ቻፓ ዲጂታል ክፍያ (ካርድ / ሞባይል)",
+  "mockSandbox": "የሙከራ ክፍያ (Sandbox)",
+  "payOfficialFare": "ትክክለኛውን ታሪፍ ይክፈሉ",
+  "verifyingPayment": "ክፍያው ከባንክ ጋር በመረጋገጥ ላይ ነው...",
+  "paymentSuccessful": "ክፍያው በተሳካ ሁኔታ ተረጋግጧል!",
+  "paymentFailed": "ክፍያው አልተሳካም",
+  "transactionReference": "የግብይት መለያ ቁጥር",
+  "amountPaid": "የተከፈለው አጠቃላይ መጠን",
+  "generateTickets": "ዲጂታል የመሳፈሪያ ትኬትዎ ከQR ኮድ ጋር ተዘጋጅቷል።",
+  "viewDigitalTicket": "ዲጂታል ቲኬት ተመልከት"
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+Ethiopic:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-textMain font-sans antialiased;
+    font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Animations for Moving Buses and Interactive Map */
+@keyframes busDriveHighway {
+  0% {
+    transform: translateX(-120%) scaleX(1);
+  }
+  48% {
+    transform: translateX(110vw) scaleX(1);
+  }
+  50% {
+    transform: translateX(110vw) scaleX(-1);
+  }
+  98% {
+    transform: translateX(-120%) scaleX(-1);
+  }
+  100% {
+    transform: translateX(-120%) scaleX(1);
+  }
+}
+
+@keyframes busDriveHighwaySlow {
+  0% {
+    transform: translateX(110vw) scaleX(-1);
+  }
+  48% {
+    transform: translateX(-120%) scaleX(-1);
+  }
+  50% {
+    transform: translateX(-120%) scaleX(1);
+  }
+  98% {
+    transform: translateX(110vw) scaleX(1);
+  }
+  100% {
+    transform: translateX(110vw) scaleX(-1);
+  }
+}
+
+@keyframes mapRouteFlow {
+  from {
+    stroke-dashoffset: 60;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.15);
+  }
+}
+
+@keyframes floatGentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-bus-drive {
+  animation: busDriveHighway 24s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+}
+
+.animate-bus-drive-slow {
+  animation: busDriveHighwaySlow 32s cubic-bezier(0.45, 0.05, 0.55, 0.95) infinite;
+}
+
+.animate-route-flow {
+  stroke-dasharray: 6 6;
+  animation: mapRouteFlow 2.5s linear infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 3s ease-in-out infinite;
+}
+
+.animate-float-gentle {
+  animation: floatGentle 4s ease-in-out infinite;
+}
+
+/* Print optimizations for boarding tickets */
+@media print {
+  header, footer, nav, button {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}
+

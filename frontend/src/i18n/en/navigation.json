@@ -1,0 +1,18 @@
+{
+  "home": "Home",
+  "searchTrips": "Search Trips",
+  "myBookings": "My Bookings",
+  "myTickets": "My Tickets",
+  "routes": "Routes",
+  "howItWorks": "How It Works",
+  "login": "Login",
+  "signUp": "Sign Up",
+  "logout": "Logout",
+  "dashboard": "Dashboard",
+  "admin": "Admin Panel",
+  "operator": "Operator Portal",
+  "driver": "Driver Terminal",
+  "profile": "My Profile",
+  "language": "Language",
+  "menu": "Menu"
+}
